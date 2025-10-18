@@ -24,16 +24,19 @@ const PortfolioHeader = () => {
                      bg-gradient-to-b from-blue-50 via-white to-gray-100
                      dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 px-6 py-20"
         >
-          <motion.h1
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 
-                       text-gray-900 dark:text-white"
-          >
-            Hi, I’m Bahman Dorand 👋
-          </motion.h1>
-
+         <motion.h1
+  initial={{ opacity: 0, y: -20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7 }}
+  className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 
+             text-gray-900 dark:text-white"
+>
+  
+  <span className="text-blue-500 text-3xl sm:text-4xl md:text-5xl font-semibold">
+    Hi, I’m{" "}Ben Dorand
+  </span>{" "}
+  👋
+</motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -46,7 +49,7 @@ const PortfolioHeader = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             onClick={handleViewWork}
-            className="inline-block bg-blue-500 text-white font-semibold 
+            className="inline-block bg-blue-500 text-black font-semibold 
                        px-6 py-3 rounded-full shadow-md hover:bg-blue-600 
                        transition-colors duration-300"
           >
