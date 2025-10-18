@@ -85,7 +85,8 @@ const PortfolioProjects = () => {
     backgroundColor: "#e5e7eb", // gray fallback
   }}
 >
-  <div>
+  
+  <div className="bg-white/80 dark:bg-gray-900/70 p-4 rounded-lg flex flex-col h-full">
     <h3 className="text-xl sm:text-2xl font-semibold mb-2">
       {project.title}
     </h3>
