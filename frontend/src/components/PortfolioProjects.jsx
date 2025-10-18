@@ -50,14 +50,14 @@ const PortfolioProjects = () => {
         </p>
 
         {/* Button to trigger animation */}
-        <div className="text-center mb-10">
+        {/* <div className="text-center mb-10">
           <button
             onClick={() => setShowProjects(true)}
             className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-500"
           >
             See My Works
           </button>
-        </div>
+        </div> */}
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
